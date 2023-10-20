@@ -121,8 +121,8 @@
     }
 
     .left-Side{
-        margin-top   : 2px;
-        text-align   : justify;
+        margin-top   : 5px;
+        text-align   : center;
         width        : 40%;
         color        : white;
         font-size    : 13px;
@@ -254,7 +254,7 @@
         background-color  : rgba( 255, 255, 255, 0.18 );
         margin-top        : 15px;
         padding           : 10px;
-        height            : 10px;
+        height            : 25px;
         text-align        : center;
         border-radius: 0px 0px 10px 10px;
     }
