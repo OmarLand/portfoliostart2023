@@ -1,0 +1,568 @@
+/* Estilos para movil */
+@media ( max-width : 421px ) {
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: #473198;
+        /* background-color: #001848; */
+        padding         : 5px;
+    }
+
+    nav{
+        display         : flex;
+        justify-content : center;
+        /* border          : 1px solid red; */
+        color           : white;
+        background-color: black;
+        border-radius   : 40px;
+        background      : rgba(0, 0, 0, 0.25);
+
+    }
+
+    nav li{
+        display    : inline;
+        margin     : 0 10px 0 0;
+    }
+
+    ul li {
+        list-style-type: none;
+    }
+
+    header{
+        display        : flex;
+        align-items    : center;
+        flex-direction  : column;
+
+    }
+
+    .main-header-wideScreen{
+        text-align: center;
+    }
+
+    #img-logo{
+        margin-top  : 8px;
+        width       : 190px;
+    }
+
+    #img-worker{
+        margin-top    : 15px;
+        width         : 180px;
+    }
+
+    #social-net ul, li{
+        display    : flex;
+        text-align : center;
+        margin     : 5px 24px 5px 80px;
+
+    }
+
+    .img-social{
+        width: 45%;
+    }
+
+    .glass-background{
+        padding                 : 10px;
+        background              : rgba( 255, 255, 255, 0.25 );
+        box-shadow              : 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter         : blur( 4px );
+        -webkit-backdrop-filter : blur( 4px );
+        border-radius           : 10px;
+        border                  : 1px solid rgba( 255, 255, 255, 0.18 );
+        box-shadow              : 4px 4px 10px black;
+    }
+
+    #fullStack {
+        margin-top    : -20px;
+        margin-bottom : 5px;
+        font-size     : 30px;
+        color         : black;
+        text-align    : center;
+    }
+
+    .fullStack-1 {
+        margin-top    : 10px;
+        margin-bottom : 8px;
+        font-size     : 17px;
+        color         : black;
+        text-align    : center;
+    }
+
+    .desc-Fs{
+        font-size     : 17px;
+        color         : #DAFFED;
+        text-align    : justify;
+        margin-bottom : -10px;
+    }
+
+    .two-elements{
+        display         : flex;
+        justify-content : space-around;
+        margin-top      : 5px;
+    }
+
+    .img-container{
+        display          : flex;
+        justify-content  : space-around;
+        align-items      : center;
+    }
+
+    .img-html{
+        margin-top  : 27px;
+        width       : 9%;
+    }
+
+    .img-fs{
+        width       : 8%;
+        margin-top  : 20px;
+
+    }
+
+    .left-Side{
+        margin-top   : 2px;
+        text-align   : justify;
+        width        : 40%;
+        color        : white;
+        font-size    : 13px;
+    }
+
+    /* Parte del body de mi Portafolio */
+
+    #skills{
+        color         : white;
+        font-size     : 14px;
+        text-align    : center;
+        margin-bottom : 10px;
+    }
+
+    .cards-container{
+        /* border : 1px solid red; */
+        width  : 100%;
+        height : 100%;
+    }
+
+    .card{
+        /* border          : 1px solid red; */
+        display         : flex;
+        justify-content : center;
+        width           : 100%;
+    }
+
+    .card-1{
+        /* border     : 1px red solid; */
+        width      : 180px;
+        height     : 35%;
+        margin     : 2px;
+        text-align : center;
+        box-shadow : 4px 4px 10px black;
+    }
+    .card-2{
+        /* border      : 1px red solid; */
+        width       : 50%;
+        height      : 50%;
+        margin-left : 22%;
+        margin-top  : 15px;
+        text-align  : center;
+        box-shadow  : 4px 4px 10px black;
+    }
+
+    a:link, a:visited, a:active{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+
+    .img-github{
+        width: 50%;
+    }
+
+    .p-card{
+        margin-top  : 1px;
+    }
+
+    .title-card{
+        color       : white;
+        font-size   : 12px;
+        margin-top  : 1px;
+        text-shadow : 5px 5px 5px black;
+    }
+
+    .img-pj{
+        width         : 65%;
+        box-shadow    : 1px 1px 10px black;
+        border-radius : 8px;
+    }
+
+    .list-skills{
+        color      : white;
+        font-size  : 11px;
+        text-align : left;
+    }
+
+    .list-skills ul, li{
+        text-align: left;
+        margin-left: -40px;
+    }
+
+    #contacto{
+        color         : white;
+        text-align    : center;
+        margin-top    : 25px;
+        margin-bottom : -10px;
+    }
+
+    .frm-contact{
+        /* border     : 1px red solid; */
+        background-color : #473198;
+        color            : white;
+        margin-top       : 25px;
+        padding          : 10px;
+        box-shadow       : 3px 3px 10px black;
+        border-radius    : 10px;
+    }
+
+    .frm-container{
+        margin-top: -20px;
+    }
+
+    #contact-me{
+        text-align: center;
+    }
+
+    form{
+        text-align: center;
+
+    }
+
+    .input-text{
+        width         : 90%;
+        height        : 20px;
+        border-radius : 10px;
+        text-align    : center; 
+    }
+
+    .btn-enviar{
+        margin-top: 5px;
+        border-radius: 15px;
+        width: 120px;
+        height: 25px;
+    }
+
+    footer{
+        background-color  : rgba( 255, 255, 255, 0.18 );
+        margin-top        : 15px;
+        padding           : 10px;
+        height            : 10px;
+        text-align        : center;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    #copy-right{
+        font-size: 12px;
+        margin-top : -1px;
+        color      : white;
+    }
+
+
+
+}
+
+/* Estilo para pantalla normal */
+@media ( min-width : 422px ) {
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: #473198;
+        padding         : 20px;
+        padding-top     : 5px;
+    }
+
+    nav{
+        display         : flex;
+        justify-content : space-evenly;
+        color           : white;
+        background-color: black;
+        border-radius   : 14px 14px 0 0;
+        background      : rgba(0, 0, 0, 0.25);
+    }
+
+    nav li{
+        display    : inline;
+        margin     : 0 40px 0 0;
+    }
+
+    ul li {
+        list-style-type: none;
+    }
+
+    header{
+        display         : flex;
+        align-items     : left;
+        flex-direction  : column;
+        align-items     : center;
+
+    }
+
+    .main-header-wideScreen{
+        display        : flex;
+        flex-direction : row;
+    }
+
+    #img-logo{
+        margin-top     : 25px;
+        margin-bottom  : 25px;
+        width          : 330px;
+    }
+
+
+    #img-worker{
+        margin-top    : 15px;
+        width         : 290px;
+    }
+
+    #social-net{
+        margin-top: 60px;
+        margin-right: 20px;
+    }
+
+    #social-net ul, li{
+        display       : flex;
+        flex-direction: column;
+        align-items   : start;
+
+    }
+
+    .img-social{
+        width: 35px;
+    }
+
+
+
+    #social-net ul, li{
+        display    : flex;
+        margin     : 4px 10px 4px 0;
+    }
+
+    .glass-background{
+        height                  : 300px;
+        width                   : 80%;
+        padding                 : 35px;
+        margin-bottom           : 10px;
+        background              : rgba( 255, 255, 255, 0.25 );
+        box-shadow              : 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter         : blur( 4px );
+        -webkit-backdrop-filter : blur( 4px );
+        border-radius           : 10px;
+        border                  : 1px solid rgba( 255, 255, 255, 0.18 );
+        box-shadow              : 4px 4px 10px black;
+    }
+
+    #fullStack {
+        margin-top    : -20px;
+        margin-bottom : 5px;
+        font-size     : 40px;
+        color         : black;
+        text-align    : center;
+    }
+
+    .fullStack-1 {
+        margin-top    : 10px;
+        margin-bottom : 8px;
+        font-size     : 20px;
+        color         : black;
+        text-align    : center;
+    }
+
+    .desc-Fs{
+        font-size     : 20px;
+        color         : #DAFFED;
+        text-align    : justify;
+        margin-bottom : -10px;
+    }
+
+    .two-elements{
+        display         : flex;
+        align-self      : center;
+        justify-content : space-around;
+        margin-top      : 5px;
+    }
+
+    .img-container{
+        display         : flex;
+        justify-content : space-around;
+        align-items     : center;
+    }
+
+    .img-html{
+        margin-top: 50px;
+        width: 6%;
+    }
+
+    .img-fs{
+        width: 5%;
+        margin-top: 20px;
+
+    }
+
+    .left-Side{
+        margin-top: 20px;
+        text-align: justify;
+        width     : 35%;
+        color     : white;
+        font-size : 18px;
+        /* border: 1px solid red; */
+    }
+
+    /* Parte del body de mi Portafolio */
+
+    #skills{
+        text-align: center;
+        color     : white;
+        font-size : 20px;
+    }
+
+    .cards-container{
+        /* border : 1px solid red; */
+        margin-top: 25px;
+        width  : 100%;
+        height : 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-1{
+        /* border     : 1px red solid; */
+        width          : 600px;
+        height         : 263px;
+        text-align     : center;
+        box-shadow     : 4px 4px 10px black;
+        margin-bottom  : 35px;
+        transition     : 400ms ease-in-out;
+    }
+
+    .card-1:hover{
+        width     : 620px;
+        height    : 260px;
+    }
+
+    .card-2{
+        /* border      : 1px red solid; */
+        width       : 480px;
+        height      : 635px;
+        margin-left : 35px;
+        text-align  : center;
+        box-shadow  : 4px 4px 10px black;
+        transition  : 400ms ease-in-out;
+    }
+
+    .card-2:hover{
+        width     : 500px;
+        height    : 650px;
+    }
+
+    a:link, a:visited, a:active{
+        text-decoration  : none;
+        color            : white;
+        font-size        : 14px;
+    }
+
+    .img-github{
+        width: 50%;
+    }
+
+    .p-card{
+        margin-top  : 1px;
+    }
+
+    .title-card{
+        color       : white;
+        font-size   : 20px;
+        margin-top  : -20px;
+        text-shadow : 5px 5px 5px black;
+    }
+
+    .img-pj{
+        width         : 65%;
+        box-shadow    : 1px 1px 10px black;
+        border-radius : 8px;
+    }
+
+    .list-skills{
+        color      : whitesmoke;
+        font-size  : 16px;
+        text-align : left;
+    }
+
+    .frm-contact{
+        /* border     : 1px red solid; */
+        background-color : #473198;
+        color            : white;
+        padding-top      : 20px;
+        margin-top       : 5px;
+        padding          : 10px;
+        box-shadow       : 3px 3px 10px black;
+        border-radius    : 10px;
+    }
+
+    .frm-container{
+        margin-top     : -20px;
+    }
+
+    #contacto{
+        color         : white;
+        text-align    : center;
+        margin-bottom : 20px;
+        font-size     : 20px;
+        text-shadow   : 5px 5px 8px black;
+    }
+
+    #contact-me{
+        text-align    : center;
+        margin-top    : 30px;
+        margin-bottom : 5px;
+        font-size     : 19px;
+    }
+
+    form{
+        text-align     : left;
+
+    }
+
+    .input-text{
+        width         : 99%;
+        height        : 20px;
+        border-radius : 10px;
+        text-align    : center;
+        margin-top    : 8px;
+        margin-bottom : 5px;
+    }
+
+    .btn-enviar{
+        margin-top    : 5px;
+        border-radius : 15px;
+        width         : 120px;
+        height        : 25px;
+    }
+
+    footer{
+        background-color  : rgba( 255, 255, 255, 0.18 );
+        margin-top        : 25px;
+        padding           : 10px;
+        width             : 99%;
+        height            : 25px;
+        text-align        : center;
+        border-radius: 0 0 12px 12px;
+    }
+
+    #copy-right{
+        margin-top: 5px;
+        color: white;
+    }
+
+}
+
