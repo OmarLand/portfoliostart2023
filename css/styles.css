@@ -305,8 +305,9 @@
         align-items     : left;
         flex-direction  : column;
         align-items     : center;
-
     }
+
+
 
     .main-header-wideScreen{
         display        : flex;
@@ -391,6 +392,7 @@
         justify-content : space-around;
         margin-top      : 5px;
     }
+
 
     .img-container{
         display         : flex;
@@ -535,9 +537,17 @@
 
     .input-text{
         width         : 99%;
-        height        : 20px;
+        height        : 25px;
         border-radius : 10px;
-        text-align    : center;
+        text-align    : left;
+        margin-top    : 8px;
+        margin-bottom : 5px;
+    }
+    .input-text-area{
+        width         : 99%;
+        /* height        : 20px; */
+        border-radius : 10px;
+        text-align    : left;
         margin-top    : 8px;
         margin-bottom : 5px;
     }
