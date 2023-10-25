@@ -148,18 +148,20 @@
         <div class="frm-container">
             <p id="contact-me">Contactame por correo y quedamos para un café</p>
 
-            <form>
+            <form action="https://formsubmit.co/eb10ce8845b36b5060059bcf60b7907e" method="POST" />
                 <label for="frm-name">Nombre:</label> <br>
-                <input class="input-text" type="text" name="Nombre" id="frm-name" placeholder=" Nombre de contacto">
+                <input class="input-text" type="text" name="name" id="frm-name" placeholder=" Nombre de contacto">
                 <br>
                 <label for="frm-correo">Correo:</label> <br>
-                <input class="input-text" type="text" name="Correo" id="frm-correo" placeholder=" Correo de contacto">
+                <input class="input-text" type="email" name="email" id="frm-correo" placeholder=" Correo de contacto">
                 <br>
                 <label for="frm-mjs">Mensaje:</label> <br>
                 <!-- <input class="input-text" type="text" name="Mensaje" id="frm-mjs" placeholder="Mensaje"> -->
                 <textarea class="input-text-area" name="Mensaje" id="frm-mjs" cols="100" rows="5"></textarea>
                 <br>
                 <input type="submit" value="Enviar" class="btn-enviar">
+
+                <input type="hidden" name="_next" value="https://olandaeta.vercel.app/">
             </form>
         </div>
     </section>
