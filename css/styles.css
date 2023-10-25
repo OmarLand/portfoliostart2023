@@ -243,6 +243,15 @@
         text-align    : center; 
     }
 
+    .input-text-area{
+        width         : 99%;
+        /* height        : 20px; */
+        border-radius : 10px;
+        text-align    : left;
+        margin-top    : 8px;
+        margin-bottom : 5px;
+    }
+
     .btn-enviar{
         margin-top: 5px;
         border-radius: 15px;
